@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: #85a5af;
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid #85a5af;
+}
+
+.controls, .controls li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons i {
+    width: 40px;
+    color:#556c74;
+    font-size: 16px;
+    cursor:pointer;
+    justify-content: center;
+
+}
+.controls .icons {
+    width: 35%;
+}
+
+ul {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.text-controls textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: none;
+    padding: 10px 15px;
+    resize: none;
+
+}
+
+.text-controls .from-text {
+    font-weight: bolder;
+}
+
+.text-controls .to-text {
+    border-left: 1px solid #85a5af;
+    border-radius: 0px;
+    font-style: italic;
+    color: #087e9e;
+}
+
+.box .text-controls {
+    display: flex;
+    border-top: 1px solid #85a5af;
+}
+
+button {
+    background-color:  #556c74;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    transition-duration: .4s;
+    border: 2px solid  #85a5af;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a1aeb3;
+    color: gray;
+    font-size: 20px;
+    border: 2px solid  #85a5af;
+}
